@@ -2,6 +2,11 @@ nav {
     background-color: transparent;
 }
 
+nav ul li:hover a {
+    border-bottom: 2px solid #a54369;
+    padding-bottom: 7%;
+}
+
 nav ul {width: 100%;}
 
 nav ul li a {

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -10,17 +10,22 @@ export class NavbarComponent implements OnInit {
 
   lightText:boolean;
 
-  constructor(private router: Router) { }
-
-  ngOnInit(): void {
-    // Decide navbar text color depending on page
-    switch(this.router.url) {
-      case '/':
-      case 'home':
-        this.lightText = true;
-      default:
-        this.lightText = false;
-    }
+  constructor(private router: Router) {
+    // Change navbar text color dependant on url
+    this.router.events.subscribe((route) => {
+      if(route instanceof NavigationEnd){
+         switch(route.url) {
+           case '/home':
+             this.lightText = true;
+             break;
+           default:
+             this.lightText = false;
+             break;
+         }
+      }
+   });
   }
+
+  ngOnInit(): void {}
 
 }

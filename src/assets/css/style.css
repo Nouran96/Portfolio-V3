@@ -1,19 +1,62 @@
 /* General Features */
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   max-height: 100vh;
 }
 
-html, body, nav {
+html,
+body,
+nav {
   margin: 0;
   padding: 0;
-  font-family: 'Yatra One', cursive;
+  font-family: "Yatra One", cursive;
 }
 
 body p {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Articles General Features */
+article {
+  text-align: center;
+  padding-top: 7%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  background-color: #eee;
+  height: 100vh;
+}
+
+article h2 {
+  position: relative;
+  margin: 2% 0 1%;
+  padding-top: 3%;
+  font-variant: small-caps;
+  font-size: 2rem;
+}
+
+article .code-icon {
+  display: inline-block;
+  position: relative;
+}
+
+article .code-icon::before,
+article .code-icon::after {
+  content: "";
+  position: absolute;
+  width: 104%;
+  height: 25%;
+  top: 33%;
+}
+
+article .code-icon::before {
+  left: -115%;
+}
+
+article .code-icon::after {
+  left: 115%;
 }
