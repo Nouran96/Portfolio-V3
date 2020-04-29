@@ -13,7 +13,7 @@
     <div class="content row">
       <div
         [ngClass]="'col-lg-' + 12 / allSkills.length"
-        class="col-md-6"
+        class="col-md-6 mb-3"
         *ngFor="let skillCat of allSkills"
       >
         <h3 class="text-center">{{ skillCat.name }}</h3>
@@ -25,7 +25,7 @@
             {{ skill.title }}
           </h5>
 
-          <progress min="0" max="100" [value]="skill.progress">
+          <progress min="0" max="100" [value]="skill.progress" [attr.data-value]="skill.progress">
             <div class="progress-bar">
               <span [style.width.%]="skill.progress"
                 >{{ skill.progress }}%</span

@@ -42,15 +42,18 @@
     background-color: #b15377;
 }
 
-h5[data-value] {
+progress {
     position: relative; 
 }
 
-h5[data-value]:after {
+progress::after{
     content: attr(data-value) '%';
     position: absolute;
     right: 1rem;
-    top: 140%;
+    /* top: 140%; */
+    top: -143%;
+    color: white;
+    /* left: ; */
     z-index: 2;
     font-size: 1rem;
 }
