@@ -60,3 +60,31 @@ article .code-icon::before {
 article .code-icon::after {
   left: 115%;
 }
+
+/* General Classes */
+.white-text, ::-moz-selection {
+    color: white;
+}
+.white-text, ::selection {
+    color: white;
+}
+
+.pink-text {
+    color: #a54369;
+}
+
+.black-text {
+    color: #222;
+}
+
+.grey-bg, ::-moz-selection {
+    background-color: #222;
+}
+
+.grey-bg, ::selection {
+    background-color: #222;
+}
+
+.hidden {
+    display: none;
+}

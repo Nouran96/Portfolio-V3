@@ -16,6 +16,7 @@ export class NavbarComponent implements OnInit {
       if(route instanceof NavigationEnd){
          switch(route.url) {
            case '/home':
+           case '/skills':
              this.lightText = true;
              break;
            default:
