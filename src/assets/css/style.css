@@ -23,12 +23,12 @@ body p {
 /* Articles General Features */
 article {
   text-align: center;
-  padding-top: 7%;
+  padding-top: 4%;
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
   background-color: #eee;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 article h2 {
@@ -87,4 +87,8 @@ article .code-icon::after {
 
 .hidden {
     display: none;
+}
+
+.title {
+  margin-bottom: 1.5rem;
 }
