@@ -1,6 +1,4 @@
 #about .code-icon::before,
-#about .code-icon::after,
-#contact .code-icon::before,
-#contact .code-icon::after {
+#about .code-icon::after {
     background-color: #a54369;
 }

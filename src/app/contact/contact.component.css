@@ -1,0 +1,32 @@
+/* Contact content Features */
+#contact .code-icon::before,
+#contact .code-icon::after {
+    width: 150%;
+    background-color: #a54369;
+}
+
+#contact .code-icon::before {
+    left: -165%;
+}
+
+#contact .content {
+    margin-top: 5%;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+#contact .social-icons a {
+    margin: 1% .5%;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+
+#contact .social-icons a:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3)
+}

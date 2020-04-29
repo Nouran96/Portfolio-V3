@@ -18,12 +18,12 @@
       >
         <h3 class="text-center">{{ skillCat.name }}</h3>
         <div class="col" *ngFor="let skill of skillCat.data">
-          <h5
+          <h6
             [style.width.%]="skill.progress"
             [attr.data-value]="skill.progress"
           >
             {{ skill.title }}
-          </h5>
+          </h6>
 
           <progress min="0" max="100" [value]="skill.progress" [attr.data-value]="skill.progress">
             <div class="progress-bar">
