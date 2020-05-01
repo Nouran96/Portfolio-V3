@@ -2,7 +2,8 @@ nav {
     background-color: transparent;
 }
 
-nav ul li:hover a {
+nav ul li:hover a,
+.active {
     border-bottom: 2px solid #a54369;
     padding-bottom: 7%;
 }
