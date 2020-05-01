@@ -15,6 +15,7 @@ export class NavbarComponent implements OnInit {
     this.router.events.subscribe((route) => {
       if(route instanceof NavigationEnd){
          switch(route.url) {
+           case '/':
            case '/home':
            case '/skills':
              this.lightText = true;

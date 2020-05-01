@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
 import { SkillsService } from './skills-service/skills.service';
 
 @Component({
@@ -15,5 +15,7 @@ export class SkillsComponent implements OnInit {
   ngOnInit(): void {
     this.allSkills = this.skillsService.getSkills();
   }
+
+  ngAfterViewChecked(): void {}
 
 }
