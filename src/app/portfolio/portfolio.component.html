@@ -11,68 +11,12 @@
 
         <div class="work">
 
-            <div class="project">
-                <a href="https://egypt-map-react.netlify.com" target="_blank">
-                    <img src="/assets/images/egypt-map-optimized.jpg" alt="Neighborhood Map Project">
+            <div class="project" *ngFor="let project of projects">
+                <a [href]="project.deploy_link ? project.deploy_link : project.github_link" target="_blank">
+                    <img [src]="project.image" [alt]="project.title">
                 </a>
                 <div class="overlay"></div>
-                <p>Neighborhood Map</p>
-            </div>
-
-            <div class="project">
-                <a href="https://my-movies-app.netlify.com" target="_blank">
-                    <img src="/assets/images/my-movies-app-optimized.jpg" alt="My Movies App">
-                </a>
-                <div class="overlay"></div>
-                <p>My Movies Tracking App</p>
-            </div>
-
-            <div class="project">
-                <a href="http://dreambig.bitballoon.com/" target="_blank">
-                    <img src="/assets/images/dream-big-project-optimized.jpg" alt="Dream Big Template">
-                </a>
-                <div class="overlay"></div>
-                <p>Dream Big Template</p>
-            </div>
-
-            <div class="project">
-                <a href="http://memory-game96.bitballoon.com/" target="_blank">
-                    <img src="/assets/images/memory-game-project-optimized.png" alt="Memory Cards Game Project">
-                </a>
-                <div class="overlay"></div>
-                <p>Memory Cards Game</p>
-            </div>
-
-            <div class="project">
-                <a href="https://kare-donation-mockup.netlify.com/" target="_blank">
-                    <img src="/assets/images/kare-template-optimized.jpg" alt="Kare Donation Template">
-                </a>
-                <div class="overlay"></div>
-                <p>Kare Donation Template Mockup</p>
-            </div>
-
-            <div class="project">
-                <a href="http://cranky-calculator96.bitballoon.com/" target="_blank">
-                    <img src="/assets/images/calculator-project-optimized.png" alt="Calculator Project">
-                </a>
-                <div class="overlay"></div>
-                <p>Calculator</p>
-            </div>
-
-            <div class="project">
-                <a href="https://divisima.netlify.com" target="_blank">
-                    <img src="/assets/images/divisima_optimized.png" alt="Divisima Template">
-                </a>
-                <div class="overlay"></div>
-                <p>Divisima Template Mockup</p>
-            </div>
-
-            <div class="project">
-                <a href="https://random-quotes-react.netlify.com/" target="_blank">
-                    <img src="/assets/images/random-quotes-machine.png" alt="Random Quotes Machine">
-                </a>
-                <div class="overlay"></div>
-                <p>Random Quotes Machine</p>
+                <p>{{ project.title }}</p>
             </div>
             
         </div>
