@@ -93,3 +93,7 @@ article .code-icon::after {
 .title {
   margin-bottom: 1.5rem;
 }
+
+button {
+  border-radius: 15px 0 15px 0 !important;
+}

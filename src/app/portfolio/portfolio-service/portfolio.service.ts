@@ -33,7 +33,7 @@ export class PortfolioService {
       "title": "Dream Big Template",
       "category": "front-end",
       "deploy_link": "http://dreambig.bitballoon.com/",
-      // "github_link": "https://github.com/Nouran96/Neighbourhood-Map-Project",
+      "github_link": "https://github.com/Nouran96/Dream-Big-Template",
       "technologies": [
         "HTML", "CSS"
       ],
@@ -55,7 +55,7 @@ export class PortfolioService {
       "title": "Kare Donation Template Mockup",
       "category": "front-end",
       "deploy_link": "https://kare-donation-mockup.netlify.com/",
-      // "github_link": "https://github.com/Nouran96/Neighbourhood-Map-Project",
+      "github_link": "https://github.com/Nouran96/Kare-Donation-Template",
       "technologies": [
         "HTML", "CSS", "Javascript"
       ],
@@ -88,7 +88,7 @@ export class PortfolioService {
       "title": "Random Quotes Machine",
       "category": "front-end",
       "deploy_link": "https://random-quotes-react.netlify.com/",
-      // "github_link": "https://github.com/Nouran96/Neighbourhood-Map-Project",
+      "github_link": "https://github.com/Nouran96/Random-Quotes-Machine",
       "technologies": [
         "HTML", "CSS", "ReactJS"
       ],
@@ -109,12 +109,34 @@ export class PortfolioService {
       "id": 9,
       "title": "E-Commerce Website",
       "category": "front-end",
-      // "deploy_link": "https://nouran-weather-app.herokuapp.com",
+      "deploy_link": "https://nouran-e-commerce.netlify.app",
       "github_link": "https://github.com/Nouran96/e-commerce-js",
       "technologies": [
         "HTML", "CSS", "Bootstrap", "Javascript", "API integration"
       ],
       "image": "/assets/images/e-commerce-website.png"
+    },
+    {
+      "id": 10,
+      "title": "Pharmacy System",
+      "category": "back-end",
+      // "deploy_link": "https://nouran-e-commerce.netlify.app",
+      "github_link": "https://github.com/Nouran96/Pharmacy_System",
+      "technologies": [
+        "HTML", "CSS", "Bootstrap", "Laravel", "AdminLTE Dashboard"
+      ],
+      "image": "/assets/images/pharmacy_system.png"
+    },
+    {
+      "id": 11,
+      "title": "Bloggy",
+      "category": "back-end",
+      // "deploy_link": "https://nouran-e-commerce.netlify.app",
+      "github_link": "https://github.com/Nouran96/BLOGER-_Django",
+      "technologies": [
+        "HTML", "CSS", "Bootstrap", "Django", "Summernote"
+      ],
+      "image": "/assets/images/bloggy.png"
     },
   ];
 
