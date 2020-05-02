@@ -77,3 +77,14 @@
     width: 100%;
     min-height: 100%;
 }
+
+#portfolio .filter-btns button {
+    border: 2px solid #a54369;
+    border-radius: 7px;
+}
+
+#portfolio .filter-btns button:hover,
+#portfolio .filter-btns button.active {
+    background-color: #a54369;
+    color: white
+}
