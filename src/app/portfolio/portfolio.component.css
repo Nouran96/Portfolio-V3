@@ -33,11 +33,12 @@
 }
 
 #portfolio .work .project {
-    width: calc((100% / 3) - 2%);
+    /* width: calc((100% / 3) - 2%); */
     height: 150px;
     overflow: hidden;
-    margin: 3% 1%;
+    /* margin: 3% 1%; */
     position: relative;
+    padding: 0;
 }
 
 #portfolio .work .project:hover {

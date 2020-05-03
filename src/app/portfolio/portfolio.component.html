@@ -15,9 +15,9 @@
             <button class="btn" [ngClass]="activeBtn == 'back-end' ? 'active' : ''" (click)="showBackOnly()">Back end</button>
         </div>
 
-        <div class="work">
+        <div class="work row">
 
-            <div class="project" *ngFor="let project of filteredProjects">
+            <div class="project col-lg-3 mx-2 my-3 col-sm-5" *ngFor="let project of filteredProjects">
                 <a [href]="project.deploy_link ? project.deploy_link : project.github_link" target="_blank">
                     <img [src]="project.image" [alt]="project.title">
                 </a>
