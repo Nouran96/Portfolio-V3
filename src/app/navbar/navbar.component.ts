@@ -8,7 +8,8 @@ import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  lightText:boolean;
+  lightText:Boolean;
+  showNav:Boolean = false;
 
   constructor(private router: Router) {
     // Change navbar text color dependant on url
@@ -25,9 +26,18 @@ export class NavbarComponent implements OnInit {
              break;
          }
       }
+      this.closeMenu();
    });
   }
 
   ngOnInit(): void {}
+
+  showSmallNav():void {
+    this.showNav = true;
+  }
+
+  closeMenu() {
+    this.showNav = false;
+  }
 
 }

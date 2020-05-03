@@ -1,4 +1,4 @@
-nav {
+nav.main-menu {
     background-color: transparent;
     position: absolute;
     top: 0%;
@@ -6,16 +6,61 @@ nav {
     width: 100%;
 }
 
-nav ul li:hover a,
+nav.main-menu ul li:hover a,
 .active {
     border-bottom: 2px solid #a54369;
     padding-bottom: 7%;
 }
 
-nav ul {width: 100%;}
+nav.main-menu ul {width: 100%;}
 
-nav ul li a {
+nav.main-menu ul li a {
     font-variant: small-caps;
     font-weight: bold;
     font-size: 1.2rem
+}
+
+/* Small Menu */
+.small-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    background-color: black;
+}
+
+.small-menu nav ul {
+    padding: 0;
+    padding-top: 5rem;
+    margin-left: 20%;
+    list-style-type: none;
+}
+
+.small-menu .close {
+    position: absolute;
+    padding: .5rem 1rem;
+    top: 4%;
+    right: 6%;
+    font-size: 1.5rem;
+    color: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 15px 0 15px 0;
+}
+
+.small-menu nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    margin: 6% auto;
+    border-bottom: 2px solid #a54369;
+}
+
+.small-menu nav ul li a:hover,
+.small-menu .close:hover{
+    font-weight: bold;
+    cursor: pointer;
 }
