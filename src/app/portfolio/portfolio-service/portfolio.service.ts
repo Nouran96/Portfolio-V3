@@ -132,7 +132,7 @@ export class PortfolioService {
       "title": "Bloggy",
       "category": "back-end",
       // "deploy_link": "https://nouran-e-commerce.netlify.app",
-      "github_link": "https://github.com/Nouran96/BLOGER-_Django",
+      "github_link": "https://github.com/Nouran96/Blogger_Django",
       "technologies": [
         "HTML", "CSS", "Bootstrap", "Django", "Summernote"
       ],
