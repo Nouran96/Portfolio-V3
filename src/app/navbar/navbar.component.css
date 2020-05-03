@@ -1,5 +1,9 @@
 nav {
     background-color: transparent;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    width: 100%;
 }
 
 nav ul li:hover a,

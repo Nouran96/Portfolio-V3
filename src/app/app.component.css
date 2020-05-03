@@ -1,0 +1,11 @@
+.top-btn {
+    position: fixed;
+    bottom: 5%;
+    left: 94%;
+    background: #b15377;
+    padding: .5rem .7rem;
+    border-radius: 50%;
+    color: #ddd;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
