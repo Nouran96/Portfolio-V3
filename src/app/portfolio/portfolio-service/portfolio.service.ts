@@ -138,6 +138,17 @@ export class PortfolioService {
       ],
       "image": "/assets/images/bloggy.png"
     },
+    {
+      "id": 12,
+      "title": "SouCom Ecommerce",
+      "category": "back-end",
+      "deploy_link": "https://ecommerce-zamn-rails.herokuapp.com",
+      "github_link": "https://github.com/Nouran96/ecommerce_rails",
+      "technologies": [
+        "HTML", "CSS", "Bootstrap", "Rails", "jQuery"
+      ],
+      "image": "/assets/images/soucom-rails.png"
+    },
   ];
 
   constructor() {}
