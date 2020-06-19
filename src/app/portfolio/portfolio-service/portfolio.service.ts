@@ -9,7 +9,7 @@ export class PortfolioService {
     {
       "id": 1,
       "title": "Neighbourhood Map",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://egypt-map-react.netlify.com",
       "github_link": "https://github.com/Nouran96/Neighbourhood-Map-Project",
       "technologies": [
@@ -20,7 +20,7 @@ export class PortfolioService {
     {
       "id": 2,
       "title": "My Movies Tracking App",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://my-movies-app.netlify.com",
       "github_link": "https://github.com/Nouran96/My-Movies-React-App",
       "technologies": [
@@ -31,7 +31,7 @@ export class PortfolioService {
     {
       "id": 3,
       "title": "Dream Big Template",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "http://dreambig.bitballoon.com/",
       "github_link": "https://github.com/Nouran96/Dream-Big-Template",
       "technologies": [
@@ -42,7 +42,7 @@ export class PortfolioService {
     {
       "id": 4,
       "title": "Memory Cards Game",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "http://memory-game96.bitballoon.com/",
       "github_link": "https://github.com/Nouran96/Memory-Game-Project",
       "technologies": [
@@ -53,7 +53,7 @@ export class PortfolioService {
     {
       "id": 5,
       "title": "Kare Donation Template Mockup",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://kare-donation-mockup.netlify.com/",
       "github_link": "https://github.com/Nouran96/Kare-Donation-Template",
       "technologies": [
@@ -64,7 +64,7 @@ export class PortfolioService {
     {
       "id": 6,
       "title": "Calculator",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "http://cranky-calculator96.bitballoon.com/",
       "github_link": "https://github.com/Nouran96/Calculator-App",
       "technologies": [
@@ -75,7 +75,7 @@ export class PortfolioService {
     {
       "id": 7,
       "title": "Divisima Template Mockup",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://divisima.netlify.com",
       "github_link": "https://github.com/Nouran96/Divisima-Template",
       "technologies": [
@@ -86,7 +86,7 @@ export class PortfolioService {
     {
       "id": 8,
       "title": "Random Quotes Machine",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://random-quotes-react.netlify.com/",
       "github_link": "https://github.com/Nouran96/Random-Quotes-Machine",
       "technologies": [
@@ -97,7 +97,7 @@ export class PortfolioService {
     {
       "id": 9,
       "title": "Weather App",
-      "category": "back-end",
+      "category": ["back-end"],
       "deploy_link": "https://nouran-weather-app.herokuapp.com",
       "github_link": "https://github.com/Nouran96/Weather-Node-App",
       "technologies": [
@@ -108,7 +108,7 @@ export class PortfolioService {
     {
       "id": 9,
       "title": "E-Commerce Website",
-      "category": "front-end",
+      "category": ["front-end"],
       "deploy_link": "https://nouran-e-commerce.netlify.app",
       "github_link": "https://github.com/Nouran96/e-commerce-js",
       "technologies": [
@@ -119,7 +119,7 @@ export class PortfolioService {
     {
       "id": 10,
       "title": "Pharmacy System",
-      "category": "back-end",
+      "category": ["back-end"],
       // "deploy_link": "https://nouran-e-commerce.netlify.app",
       "github_link": "https://github.com/Nouran96/Pharmacy_System",
       "technologies": [
@@ -130,7 +130,7 @@ export class PortfolioService {
     {
       "id": 11,
       "title": "Bloggy",
-      "category": "back-end",
+      "category": ["back-end"],
       // "deploy_link": "https://nouran-e-commerce.netlify.app",
       "github_link": "https://github.com/Nouran96/Blogger_Django",
       "technologies": [
@@ -141,13 +141,24 @@ export class PortfolioService {
     {
       "id": 12,
       "title": "SouCom Ecommerce",
-      "category": "back-end",
+      "category": ["back-end"],
       "deploy_link": "https://ecommerce-zamn-rails.herokuapp.com",
       "github_link": "https://github.com/Nouran96/ecommerce_rails",
       "technologies": [
         "HTML", "CSS", "Bootstrap", "Rails", "jQuery"
       ],
       "image": "/assets/images/soucom-rails.png"
+    },
+    {
+      "id": 13,
+      "title": "SolarCo",
+      "category": ["back-end", "front-end"],
+      "deploy_link": "https://solarco.herokuapp.com",
+      "github_link": "https://github.com/Nouran96/SolarCo",
+      "technologies": [
+        "HTML", "CSS", "Bootstrap", "Rails", "Angular"
+      ],
+      "image": "/assets/images/solarco.png"
     },
   ];
 

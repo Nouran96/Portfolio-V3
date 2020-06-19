@@ -27,12 +27,12 @@ export class PortfolioComponent implements OnInit {
 
   showFrontOnly() {
     this.activeBtn = 'front-end';
-    this.filteredProjects = this.projects.filter((project) => project.category == 'front-end')
+    this.filteredProjects = this.projects.filter((project) => project.category.includes('front-end'))
   }
 
   showBackOnly() {
     this.activeBtn = 'back-end';
-    this.filteredProjects = this.projects.filter((project) => project.category == 'back-end')
+    this.filteredProjects = this.projects.filter((project) => project.category.includes('back-end'))
   }
 
 }
