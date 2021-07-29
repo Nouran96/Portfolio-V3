@@ -160,11 +160,33 @@ export class PortfolioService {
       ],
       "image": "/assets/images/solarco.png"
     },
+    {
+      "id": 14,
+      "title": "Maqam",
+      "category": ["front-end"],
+      "deploy_link": "http://maqam.io/",
+      // "github_link": "https://github.com/Nouran96/Todo-App-Vue",
+      "technologies": [
+        "HTML", "SASS", "Next JS", "React JS"
+      ],
+      "image": "/assets/images/maqam.png"
+    },
+    {
+      "id": 15,
+      "title": "Todo App Vue",
+      "category": ["front-end"],
+      "deploy_link": "https://nouran96.github.io/Todo-App-Vue/",
+      "github_link": "https://github.com/Nouran96/Todo-App-Vue",
+      "technologies": [
+        "HTML", "Tailwind CSS", "Vue JS"
+      ],
+      "image": "/assets/images/todo-app-vue.png"
+    }
   ];
 
   constructor() {}
 
   getProjects() {
-    return this.projects;
+    return this.projects.reverse();
   }
 }
