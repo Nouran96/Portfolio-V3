@@ -24,28 +24,48 @@ export class SkillsService {
         },
         {
           "id": 3,
+          "title": "SASS",
+          "progress": 80
+        },
+        {
+          "id": 4,
+          "title": "Tailwind CSS",
+          "progress": 80
+        },
+        {
+          "id": 5,
           "title": "Bootstrap",
           "progress": 90
         },
         {
-          "id": 4,
+          "id": 6,
           "title": "Javascript",
           "progress": 95
         },
         {
-          "id": 5,
+          "id": 7,
           "title": "jQuery",
           "progress": 80
         },
         {
-          "id": 6,
+          "id": 8,
           "title": "ReactJs",
           "progress": 85
         },
         {
-          "id": 7,
+          "id": 9,
           "title": "Angular",
           "progress": 85
+        },
+        {
+          "id": 10,
+          "title": "Next JS",
+          "progress": 80
+        },
+        {
+          "id": 11,
+          "title": "Vue JS",
+          "progress": 80
         },
       ],
     },
